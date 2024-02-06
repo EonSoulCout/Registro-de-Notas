@@ -33,15 +33,11 @@ public:
     int getNotaF() const;
     void setNotaF();
 
-    QString getStatus() const;
+    QString getStatus();
     void setStatus();
 
     int getNotaMin() const;
     void setNotaMin();
-
-    QString tr(const char *text) {
-        return translator.translate("Calculos", text);
-    }
 };
 
 #endif // CALCULOS_H

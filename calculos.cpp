@@ -52,11 +52,11 @@ void Calculos::setStatus()
 {
     int nota = getNotaF();
     if (nota >= 70) {
-        m_status = tr("Aprobado");
+        m_status = "Aprobado";
     } else if (nota < 70 && nota >= 25) {
-        m_status = tr("Remedial");
+        m_status = "Remedial";
     } else {
-        m_status = tr("Reprobado");
+        m_status = "Reprobado";
     }
 
 }
@@ -71,7 +71,7 @@ int Calculos::getNotaMin() const
     return m_notaMin;
 }
 
-QString Calculos::getStatus() const
+QString Calculos::getStatus()
 {
     return m_status;
 }
