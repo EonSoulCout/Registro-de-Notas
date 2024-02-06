@@ -1,12 +1,13 @@
 <RCC>
     <qresource prefix="/">
-        <file>Recursos/aprobar.png</file>
-        <file>Recursos/carpeta.png</file>
-        <file>Recursos/cerrar-sesion.png</file>
-        <file>Recursos/disquete.png</file>
-        <file>Recursos/informacion.png</file>
-        <file>Recursos/registro.png</file>
-        <file>Recursos/creador-de-contenido.png</file>
+        <file>aprobar - copia.png</file>
+        <file>aprobar.png</file>
+        <file>carpeta.png</file>
+        <file>cerrar-sesion.png</file>
+        <file>creador-de-contenido.png</file>
+        <file>disquete.png</file>
         <file>en_us.qm</file>
+        <file>informacion.png</file>
+        <file>registro.png</file>
     </qresource>
 </RCC>

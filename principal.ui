@@ -15,7 +15,7 @@
   </property>
   <property name="windowIcon">
    <iconset resource="Recursos.qrc">
-    <normaloff>:/Recursos/registro.png</normaloff>:/Recursos/registro.png</iconset>
+    <normaloff>:/registro.png</normaloff>:/registro.png</iconset>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(203, 203, 226);
@@ -51,7 +51,7 @@ selection-background-color: rgb(210, 236, 255);</string>
     </property>
     <property name="icon">
      <iconset resource="Recursos.qrc">
-      <normaloff>:/Recursos/carpeta.png</normaloff>:/Recursos/carpeta.png</iconset>
+      <normaloff>:/carpeta.png</normaloff>:/carpeta.png</iconset>
     </property>
     <addaction name="actionRegistro"/>
     <addaction name="actionGuardar"/>
@@ -64,7 +64,7 @@ selection-background-color: rgb(210, 236, 255);</string>
     </property>
     <property name="icon">
      <iconset resource="Recursos.qrc">
-      <normaloff>:/Recursos/informacion.png</normaloff>:/Recursos/informacion.png</iconset>
+      <normaloff>:/creador-de-contenido.png</normaloff>:/creador-de-contenido.png</iconset>
     </property>
     <addaction name="actionCreditos"/>
    </widget>
@@ -91,7 +91,7 @@ selection-background-color: rgb(210, 236, 255);</string>
   <action name="actionRegistro">
    <property name="icon">
     <iconset resource="Recursos.qrc">
-     <normaloff>:/Recursos/registro.png</normaloff>:/Recursos/registro.png</iconset>
+     <normaloff>:/registro.png</normaloff>:/registro.png</iconset>
    </property>
    <property name="text">
     <string>Registro</string>
@@ -100,7 +100,7 @@ selection-background-color: rgb(210, 236, 255);</string>
   <action name="actionGuardar">
    <property name="icon">
     <iconset resource="Recursos.qrc">
-     <normaloff>:/Recursos/disquete.png</normaloff>:/Recursos/disquete.png</iconset>
+     <normaloff>:/disquete.png</normaloff>:/disquete.png</iconset>
    </property>
    <property name="text">
     <string>Guardar</string>
@@ -109,7 +109,7 @@ selection-background-color: rgb(210, 236, 255);</string>
   <action name="actionSalir">
    <property name="icon">
     <iconset resource="Recursos.qrc">
-     <normaloff>:/Recursos/cerrar-sesion.png</normaloff>:/Recursos/cerrar-sesion.png</iconset>
+     <normaloff>:/cerrar-sesion.png</normaloff>:/cerrar-sesion.png</iconset>
    </property>
    <property name="text">
     <string>Salir</string>
@@ -118,7 +118,7 @@ selection-background-color: rgb(210, 236, 255);</string>
   <action name="actionCreditos">
    <property name="icon">
     <iconset resource="Recursos.qrc">
-     <normaloff>:/Recursos/creador-de-contenido.png</normaloff>:/Recursos/creador-de-contenido.png</iconset>
+     <normaloff>:/informacion.png</normaloff>:/informacion.png</iconset>
    </property>
    <property name="text">
     <string>Creditos</string>
