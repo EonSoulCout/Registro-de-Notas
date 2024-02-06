@@ -51,17 +51,12 @@ void Calculos::setNotaF()
 void Calculos::setStatus()
 {
     int nota = getNotaF();
-    if (nota >= 70)
-    {
-        m_status = "Aprobado";
-    }
-    else if (nota < 70 && nota >= 25)
-    {
-        m_status = "Remedial";
-    }
-    else
-    {
-        m_status = "Reprobado";
+    if (nota >= 70) {
+        m_status = tr("Aprobado");
+    } else if (nota < 70 && nota >= 25) {
+        m_status = tr("Remedial");
+    } else {
+        m_status = tr("Reprobado");
     }
 
 }

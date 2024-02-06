@@ -2,9 +2,11 @@
 #define CALCULOS_H
 
 #include <QString>
+#include <QTranslator>
 
 class Calculos
 {
+
 private:
     QString m_Nombres;
     int m_nota1;
@@ -12,6 +14,8 @@ private:
     int m_notaF;
     QString m_status;
     int m_notaMin;
+
+    QTranslator translator;
 
 public:
     Calculos();
@@ -34,6 +38,10 @@ public:
 
     int getNotaMin() const;
     void setNotaMin();
+
+    QString tr(const char *text) {
+        return translator.translate("Calculos", text);
+    }
 };
 
 #endif // CALCULOS_H
